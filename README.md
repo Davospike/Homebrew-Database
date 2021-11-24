@@ -9,7 +9,7 @@ $ java DBServer
 
 $ java DBClient
 ```
-Once the client is running you can enter SQL queries on the command line. Example queries include:
+Once initialised, SQL queries can be entered on the command line, e.g. :
 ```
 CREATE DATABASE coursework;
 
@@ -23,7 +23,7 @@ CREATE TABLE marks (name, mark);
 
 Server response: OK
 ```
-When data is added to a table other queries include:
+Once a table is populated with data further queries can be executed, e.g. :
 ```
 SELECT * FROM marks;
 
